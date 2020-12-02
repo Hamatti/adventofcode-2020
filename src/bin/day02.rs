@@ -8,14 +8,14 @@ fn main() -> io::Result<()> {
     let input: Vec<&str> = buffer.split("\n").collect();
     let input2: Vec<&str> = input.clone();
 
-    println!("Part 1: {:?}", validate_passwords(input).unwrap());
-    println!("Part 2: {:?}", validate_passwords_positional(input2).unwrap());
+    println!("Part 1: {:?}", validate_passwords(input));
+    println!("Part 2: {:?}", validate_passwords_positional(input2));
 
     Ok(())
 
 }
 
-fn validate_passwords(input: Vec<&str>) -> Option<u32> {
+fn validate_passwords(input: Vec<&str>) -> u32 {
     let re = Regex::new(r"^(\d+)-(\d+)\s(\w):\s(.*)$").unwrap();
     let mut valid: u32 = 0;
     for line in input {
@@ -32,10 +32,10 @@ fn validate_passwords(input: Vec<&str>) -> Option<u32> {
             }
         }
     }
-    Some(valid)
+    valid
 }
 
-fn validate_passwords_positional(input: Vec<&str>) -> Option<u32> {
+fn validate_passwords_positional(input: Vec<&str>) -> u32 {
     let re = Regex::new(r"^(\d+)-(\d+)\s(\w):\s(.*)$").unwrap();
     let mut valid: u32 = 0;
     for line in input {
@@ -54,7 +54,7 @@ fn validate_passwords_positional(input: Vec<&str>) -> Option<u32> {
         }
     }
 
-    Some(valid)
+    valid
 }
 
 #[cfg(test)]
@@ -64,12 +64,12 @@ mod tests {
     #[test]
     fn it_solves_part1_example() {
         let example_input = ["1-3 a: abcde","1-3 b: cdefg","2-9 c: ccccccccc"].to_vec();
-        assert_eq!(validate_passwords(example_input).unwrap(), 2);
+        assert_eq!(validate_passwords(example_input), 2);
     }
 
     #[test]
     fn it_solves_part2_example() {
         let example_input = ["1-3 a: abcde","1-3 b: cdefg","2-9 c: ccccccccc"].to_vec();
-        assert_eq!(validate_passwords_positional(example_input).unwrap(), 1);
+        assert_eq!(validate_passwords_positional(example_input), 1);
     }
 }
