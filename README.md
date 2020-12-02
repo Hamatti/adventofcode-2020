@@ -31,6 +31,7 @@ in root directory
 ## Solutions
 
 ⭐️ [Day 01](src/bin/day01.rs)
+⭐️ [Day 02](src/bin/day02.rs)
 
 ## Blog posts
 
