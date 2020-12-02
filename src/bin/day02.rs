@@ -25,14 +25,22 @@ fn validate_passwords(input: Vec<&str>) -> Option<u32> {
             let chr: &str = &cap[3];
             let password: &str = &cap[4];
 
-            let counts: usize = password.matches(chr).count();
-
-            if min <= counts && counts <= max {
+            if is_valid_password_old(password, chr, min, max) {
                 valid += 1;
             }
         }
     }
     Some(valid)
+}
+
+/// Checks if a given password matches its requirements
+///
+/// Requirements:
+/// the amount of `inspection_character` in the password must be between `min` and `max`, inclusive
+fn is_valid_password_old(password: &str, inspection_character: &str, min: usize, max: usize) -> bool {
+    let valid_characters: usize = password.matches(inspection_character).count();
+
+    min <= valid_characters && valid_characters <= max
 }
 
 fn validate_passwords_positional(input: Vec<&str>) -> Option<u32> {
