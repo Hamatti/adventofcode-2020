@@ -32,6 +32,10 @@ in root directory
 
 ⭐️ [Day 01](src/bin/day01.rs)
 
+## Blog posts
+
+📓 [#1: Getting Started](https://hamatti.org/posts/advent-of-code-1-getting-started/)
+
 ## Acknowledgements
 
 I copied the project structure from [Jaakko Husso's repository](https://github.com/Cadiac/adventofcode).
