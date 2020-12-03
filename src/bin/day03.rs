@@ -1,5 +1,7 @@
 use std::io::{self, Read};
 
+const TREE: char = '#';
+
 fn main() -> io::Result<()> {
     let mut buffer = String::new();
     io::stdin().read_to_string(&mut buffer)?;
@@ -70,7 +72,7 @@ fn solve_slope(input: &Vec<&str>, slope: Slope) -> Option<usize> {
 
         let chr = input[row].chars().nth(col)?;
 
-        if chr == '#' {
+        if chr == TREE {
             trees += 1;
         }
     }
