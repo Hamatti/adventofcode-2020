@@ -32,6 +32,7 @@ in root directory
 
 ⭐️ [Day 01](src/bin/day01.rs)
 ⭐️ [Day 02](src/bin/day02.rs)
+⭐️ [Day 03](src/bin/day03.rs)
 
 ## Blog posts
 
