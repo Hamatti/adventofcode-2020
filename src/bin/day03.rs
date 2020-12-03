@@ -1,6 +1,5 @@
 use std::io::{self, Read};
 
-
 fn main() -> io::Result<()> {
     let mut buffer = String::new();
     io::stdin().read_to_string(&mut buffer)?;
@@ -11,15 +10,30 @@ fn main() -> io::Result<()> {
     println!(
         "Part 2: {:?}",
         second_part(&input, &vec![
-            (1, 1),
-            (3, 1),
-            (5, 1),
-            (7, 1),
-            (1, 2)
+            Slope::new(1, 1),
+            Slope::new(3, 1),
+            Slope::new(5, 1),
+            Slope::new(7, 1),
+            Slope::new(1, 2)
         ]).unwrap()
     );
 
     Ok(())
+}
+
+#[derive(Copy, Clone)]
+struct Slope {
+    delta_row: usize,
+    delta_col: usize
+}
+
+impl Slope {
+    fn new(delta_col: usize, delta_row: usize) -> Slope {
+        Slope {
+            delta_row,
+            delta_col
+        }
+    }
 }
 
 /// Calculates how many # characters are in the line of movement
@@ -31,7 +45,7 @@ fn main() -> io::Result<()> {
 /// 
 /// '#..#..#....#' is same as
 /// '#..#..#....##..#..#....##..#..#....##..#..#....##..#..#....##..#..#....#' to infinity
-fn solve_slope(input: &Vec<&str>, slope: &(usize, usize)) -> Option<usize> {
+fn solve_slope(input: &Vec<&str>, slope: Slope) -> Option<usize> {
     let mut row: usize = 0;
     let mut col: usize = 0;
     
@@ -41,8 +55,8 @@ fn solve_slope(input: &Vec<&str>, slope: &(usize, usize)) -> Option<usize> {
     let mut trees: usize = 0;
 
     loop {
-        row += slope.1;
-        col += slope.0;
+        row += slope.delta_row;
+        col += slope.delta_col;
 
         if row >= max_rows {
             break;
@@ -65,14 +79,14 @@ fn solve_slope(input: &Vec<&str>, slope: &(usize, usize)) -> Option<usize> {
 
 /// Solve the slope for single slope of 3, 1
 fn first_part(input: &Vec<&str>) -> Option<usize> {
-    solve_slope(&input, &(3, 1))
+    solve_slope(&input, Slope::new(3, 1))
 }
 
 /// The product of slope difficulties for multiple slopes
-fn second_part(input: &Vec<&str>, slopes: &Vec<(usize, usize)>) -> Option<usize> {
+fn second_part(input: &Vec<&str>, slopes: &Vec<Slope>) -> Option<usize> {
     let mut slope_difficulties = vec![];
     for slope in slopes {
-        slope_difficulties.push(solve_slope(&input, &slope).unwrap());
+        slope_difficulties.push(solve_slope(&input, *slope).unwrap());
     }
 
     let mut slope_difficulty: usize = 1;
@@ -121,11 +135,11 @@ mod tests {
             ".#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#",
         ].to_vec();
         let example_slopes = vec![
-            (1, 1),
-            (3, 1),
-            (5, 1),
-            (7, 1),
-            (1, 2)
+            Slope::new(1, 1),
+            Slope::new(3, 1),
+            Slope::new(5, 1),
+            Slope::new(7, 1),
+            Slope::new(1, 2)
         ];
         assert_eq!(second_part(&example_input, &example_slopes).unwrap(), 336);
     }
