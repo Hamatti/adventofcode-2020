@@ -16,7 +16,7 @@ fn main() -> io::Result<()> {
     Ok(())
 }
 
-fn validate_passwords(input: &Vec<&str>) -> Option<u32> {
+fn validate_passwords(input: &[&str]) -> Option<u32> {
     let re = Regex::new(r"^(\d+)-(\d+)\s(\w):\s(.*)$").unwrap();
     let mut valid: u32 = 0;
     for line in input {
@@ -49,7 +49,7 @@ fn is_valid_password_old(
     min <= valid_characters && valid_characters <= max
 }
 
-fn validate_passwords_positional(input: &Vec<&str>) -> Option<u32> {
+fn validate_passwords_positional(input: &[&str]) -> Option<u32> {
     let re = Regex::new(r"^(\d+)-(\d+)\s(\w):\s(.*)$").unwrap();
     let mut valid: u32 = 0;
     for line in input {

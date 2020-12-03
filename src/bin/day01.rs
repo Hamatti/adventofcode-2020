@@ -5,7 +5,7 @@ fn main() -> io::Result<()> {
     io::stdin().read_to_string(&mut buffer)?;
 
     let input: Vec<i32> = buffer
-        .split("\n")
+        .split('\n')
         .filter(|inp| inp != &"")
         .map(|num| num.parse().unwrap())
         .collect();

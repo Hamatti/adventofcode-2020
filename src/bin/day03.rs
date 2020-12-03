@@ -11,7 +11,7 @@ fn main() -> io::Result<()> {
     println!("Part 1: {:?}", first_part(&input).unwrap());
     println!(
         "Part 2: {:?}",
-        second_part(&input, &vec![
+        second_part(&input, &[
             Slope::new(1, 1),
             Slope::new(3, 1),
             Slope::new(5, 1),
@@ -47,7 +47,7 @@ impl Slope {
 /// 
 /// '#..#..#....#' is same as
 /// '#..#..#....##..#..#....##..#..#....##..#..#....##..#..#....##..#..#....#' to infinity
-fn solve_slope(input: &Vec<&str>, slope: Slope) -> Option<usize> {
+fn solve_slope(input: &[&str], slope: Slope) -> Option<usize> {
     let mut row: usize = 0;
     let mut col: usize = 0;
     
@@ -80,12 +80,12 @@ fn solve_slope(input: &Vec<&str>, slope: Slope) -> Option<usize> {
 }
 
 /// Solve the slope for single slope of 3, 1
-fn first_part(input: &Vec<&str>) -> Option<usize> {
+fn first_part(input: &[&str]) -> Option<usize> {
     solve_slope(&input, Slope::new(3, 1))
 }
 
 /// The product of slope difficulties for multiple slopes
-fn second_part(input: &Vec<&str>, slopes: &Vec<Slope>) -> Option<usize> {
+fn second_part(input: &[&str], slopes: &[Slope]) -> Option<usize> {
     let mut slope_difficulties = vec![];
     for slope in slopes {
         slope_difficulties.push(solve_slope(&input, *slope).unwrap());
@@ -117,7 +117,7 @@ mod tests {
             "#.##...#...#.##...#...#.##...#...#.##...#...#.##...#...#.##...#...",
             "#...##....##...##....##...##....##...##....##...##....##...##....#",
             ".#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#",
-        ].to_vec();
+        ];
         assert_eq!(first_part(&example_input).unwrap(), 7);
     }
 
@@ -136,7 +136,7 @@ mod tests {
             "#...##....##...##....##...##....##...##....##...##....##...##....#",
             ".#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#",
         ].to_vec();
-        let example_slopes = vec![
+        let example_slopes = [
             Slope::new(1, 1),
             Slope::new(3, 1),
             Slope::new(5, 1),
