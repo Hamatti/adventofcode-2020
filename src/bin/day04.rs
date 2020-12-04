@@ -26,7 +26,7 @@ fn main() -> io::Result<()> {
 
 
 
-    // println!("Part 1: {:?}", first_part(&passports).unwrap());
+    println!("Part 1: {:?}", first_part(&passports).unwrap());
     println!("Part 2: {:?}", second_part(&passports).unwrap());
     Ok(())
 }
@@ -80,11 +80,14 @@ fn validate_field(key: &String, value: &String) -> bool {
         "hgt" => {
             if value.matches("cm").count() > 0 {
                 let value: usize = value.replace("cm", "").parse().unwrap();
-                value >= 150 && value <= 193
-            } else {
+                return value >= 150 && value <= 193;
+            } 
+                
+            if value.matches("in").count() > 0 {
                 let value: usize = value.replace("in", "").parse().unwrap();
-                value >= 59 && value <= 76
+                return value >= 59 && value <= 76;
             }
+            false 
         },
         "hcl" => {
             let re = Regex::new(r"^#[0-9a-f]{6}$").unwrap();
@@ -213,6 +216,9 @@ mod tests {
         assert_eq!(validate_field(&String::from("hgt"), &String::from("59in")), true);
         assert_eq!(validate_field(&String::from("hgt"), &String::from("76in")), true);
         assert_eq!(validate_field(&String::from("hgt"), &String::from("77in")), false);
+
+        assert_eq!(validate_field(&String::from("hgt"), &String::from("76")), false);
+        assert_eq!(validate_field(&String::from("hgt"), &String::from("193")), false);
     }
 
     #[test]

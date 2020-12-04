@@ -1,0 +1,1342 @@
+Part 1: 192
+[DEBUG]: Making sure we run the right function
+[DEBUG]: We have 259 passports
+[DEBUG]: We start with `valid_passports` at value 0
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating pid: 112040163
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating hgt: 167cm
+[DEBUG] Validating byr: 1971
+[SUCCESS]: Incrementing valid_passports to 1
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating hcl: #623a2f
+[DEBUG] Validating hgt: 171cm
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating byr: 1993
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating pid: 108667812
+[SUCCESS]: Incrementing valid_passports to 2
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating cid: 271
+[DEBUG] Validating pid: 876104259
+[DEBUG] Validating byr: 1972
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating hgt: 173cm
+[SUCCESS]: Incrementing valid_passports to 3
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 406306240
+[DEBUG] Validating byr: 1967
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating hgt: 174cm
+[SUCCESS]: Incrementing valid_passports to 4
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating cid: 87
+[DEBUG] Validating byr: 1960
+[DEBUG] Validating hgt: 62in
+[DEBUG] Validating pid: 293598838
+[DEBUG] Validating hcl: #7d3b0c
+[SUCCESS]: Incrementing valid_passports to 5
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2006
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating hgt: 176cm
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating pid: 308480529
+[DEBUG] Validating byr: 1988
+[SUCCESS]: Incrementing valid_passports to 6
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating iyr: 2005
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating cid: 185
+[DEBUG] Validating hgt: 171cm
+[DEBUG] Validating byr: 1966
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating pid: 081972188
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating hcl: 9bb154
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 522553186
+[DEBUG] Validating iyr: 1999
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1941
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating hgt: 153cm
+[DEBUG] Validating hcl: #ceb3a1
+[DEBUG] Validating pid: 140123640
+[SUCCESS]: Incrementing valid_passports to 7
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating cid: 202
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating hcl: #602927
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating byr: 1974
+[DEBUG] Validating pid: 658341964
+[SUCCESS]: Incrementing valid_passports to 8
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating cid: 234
+[DEBUG] Validating eyr: 2031
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: 7e9d5a
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 1998
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 278521396
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating hgt: 190cm
+[DEBUG] Validating byr: 1956
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating cid: 342
+[DEBUG] Validating eyr: 2023
+[SUCCESS]: Incrementing valid_passports to 9
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2028
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: dne
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hgt: 169cm
+[DEBUG] Validating pid: 240085824
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating byr: 1920
+[SUCCESS]: Incrementing valid_passports to 10
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating hgt: 190in
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating byr: 1933
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating hgt: 171cm
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating pid: 514517439
+[SUCCESS]: Incrementing valid_passports to 11
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating hcl: 5a0da9
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating hgt: 169cm
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating pid: 348737413
+[DEBUG] Validating byr: 1997
+[SUCCESS]: Incrementing valid_passports to 12
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating hgt: 181cm
+[DEBUG] Validating cid: 315
+[DEBUG] Validating pid: 779435812
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating byr: 1966
+[SUCCESS]: Incrementing valid_passports to 13
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating byr: 2014
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2024
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1940
+[DEBUG] Validating pid: 181904523
+[DEBUG] Validating eyr: 1937
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1982
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating pid: 638759541
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating hgt: 172cm
+[DEBUG] Validating iyr: 2012
+[SUCCESS]: Incrementing valid_passports to 14
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 950995084
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating byr: 1979
+[DEBUG] Validating hgt: 168cm
+[DEBUG] Validating hcl: #6b5442
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating iyr: 2017
+[SUCCESS]: Incrementing valid_passports to 15
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating byr: 1972
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating hgt: 179cm
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating pid: 293827532
+[SUCCESS]: Incrementing valid_passports to 16
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 179cm
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating byr: 1982
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating cid: 209
+[DEBUG] Validating pid: 626732917
+[DEBUG] Validating eyr: 2020
+[SUCCESS]: Incrementing valid_passports to 17
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1928
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating cid: 202
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating pid: 212611149
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating hgt: 64in
+[SUCCESS]: Incrementing valid_passports to 18
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 667658434
+[DEBUG] Validating hgt: 183cm
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating hcl: #e8fa30
+[DEBUG] Validating byr: 1943
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating iyr: 2010
+[SUCCESS]: Incrementing valid_passports to 19
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 117
+[DEBUG] Validating byr: 2022
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2030
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating eyr: 2032
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2022
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 63518738
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating pid: 495215177
+[DEBUG] Validating cid: 192
+[DEBUG] Validating byr: 1962
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating hgt: 151cm
+[SUCCESS]: Incrementing valid_passports to 20
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating pid: 302526406
+[DEBUG] Validating byr: 2015
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 133
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating hcl: #fffffd
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating byr: 1966
+[DEBUG] Validating pid: 9953651821
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating byr: 1960
+[DEBUG] Validating pid: 752655640
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating cid: 249
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating hgt: 191cm
+[SUCCESS]: Incrementing valid_passports to 21
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating cid: 195
+[DEBUG] Validating iyr: 2025
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2010
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hcl: #6b5442
+[DEBUG] Validating byr: 1951
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating hgt: 176cm
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating pid: 080392492
+[SUCCESS]: Incrementing valid_passports to 22
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #ceb3a1
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating pid: 897792747
+[DEBUG] Validating hgt: 162cm
+[DEBUG] Validating byr: 1968
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2026
+[SUCCESS]: Incrementing valid_passports to 23
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 157cm
+[DEBUG] Validating byr: 1981
+[DEBUG] Validating pid: 216910202
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating eyr: 2025
+[SUCCESS]: Incrementing valid_passports to 24
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1990
+[DEBUG] Validating hcl: a4a3ae
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating hgt: 65in
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating cid: 224
+[DEBUG] Validating byr: 1982
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating pid: 854228141
+[SUCCESS]: Incrementing valid_passports to 25
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating pid: 461319017
+[DEBUG] Validating hgt: 154cm
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating cid: 229
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating byr: 1975
+[SUCCESS]: Incrementing valid_passports to 26
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 732321495
+[DEBUG] Validating hcl: 9c9409
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating cid: 188
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating byr: 1925
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating pid: 402548656
+[DEBUG] Validating eyr: 2023
+[SUCCESS]: Incrementing valid_passports to 27
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 167cm
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating pid: 874307939
+[DEBUG] Validating hcl: #3f85a4
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating byr: 1959
+[SUCCESS]: Incrementing valid_passports to 28
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating pid: 810026000
+[DEBUG] Validating hgt: 183cm
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating cid: 226
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating byr: 1940
+[SUCCESS]: Incrementing valid_passports to 29
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2000
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating ecl: #d83a36
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 80
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating hgt: 173cm
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating hcl: #fffffd
+[DEBUG] Validating pid: 735853952
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating byr: 1923
+[SUCCESS]: Incrementing valid_passports to 30
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1977
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating hgt: 186cm
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating ecl: #698d72
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 44037388
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: #6858b5
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating pid: 848487392
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating byr: 1959
+[DEBUG] Validating hgt: 74in
+[SUCCESS]: Incrementing valid_passports to 31
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 096349067
+[DEBUG] Validating hgt: 165in
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2028
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 192cm
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating byr: 1956
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating pid: 791399958
+[DEBUG] Validating hcl: #602927
+[SUCCESS]: Incrementing valid_passports to 32
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating ecl: #3fa48b
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2018
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating byr: 2021
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating cid: 170
+[DEBUG] Validating hgt: 166cm
+[DEBUG] Validating pid: 300188824
+[DEBUG] Validating byr: 1954
+[SUCCESS]: Incrementing valid_passports to 33
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating hgt: 71in
+[DEBUG] Validating pid: 575973478
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating byr: 1948
+[SUCCESS]: Incrementing valid_passports to 34
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating byr: 1997
+[DEBUG] Validating pid: 864648034
+[DEBUG] Validating hgt: 180cm
+[SUCCESS]: Incrementing valid_passports to 35
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating pid: 972201795
+[DEBUG] Validating hgt: 163cm
+[DEBUG] Validating byr: 1960
+[DEBUG] Validating hcl: #02e17f
+[DEBUG] Validating cid: 338
+[SUCCESS]: Incrementing valid_passports to 36
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 229400637
+[DEBUG] Validating hcl: #122db6
+[DEBUG] Validating byr: 1952
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating hgt: 191cm
+[DEBUG] Validating eyr: 2024
+[SUCCESS]: Incrementing valid_passports to 37
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating pid: 360891963
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating byr: 1925
+[SUCCESS]: Incrementing valid_passports to 38
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 746919391
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 157cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating byr: 2000
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating pid: 500935725
+[DEBUG] Validating hgt: 183cm
+[SUCCESS]: Incrementing valid_passports to 39
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 786361311
+[DEBUG] Validating byr: 1988
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 168cm
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating cid: 244
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating ecl: hzl
+[SUCCESS]: Incrementing valid_passports to 40
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 300
+[DEBUG] Validating hgt: 176in
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 188cm
+[DEBUG] Validating byr: 1947
+[DEBUG] Validating hcl: #cfa07d
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating cid: 83
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating pid: 447734900
+[DEBUG] Validating iyr: 2013
+[SUCCESS]: Incrementing valid_passports to 41
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #602927
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 167cm
+[DEBUG] Validating cid: 321
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating byr: 1979
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating pid: 978238277
+[SUCCESS]: Incrementing valid_passports to 42
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 73cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating pid: 191cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 158cm
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating byr: 1939
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating pid: 855145518
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2029
+[SUCCESS]: Incrementing valid_passports to 43
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1981
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating cid: 80
+[DEBUG] Validating hgt: 154cm
+[DEBUG] Validating hcl: #602927
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating pid: 427938374
+[SUCCESS]: Incrementing valid_passports to 44
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 154cm
+[DEBUG] Validating cid: 102
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating byr: 2010
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating cid: 302
+[DEBUG] Validating pid: 161cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating byr: 1938
+[DEBUG] Validating hgt: 158cm
+[DEBUG] Validating hcl: #602927
+[DEBUG] Validating pid: 041582949
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating cid: 180
+[DEBUG] Validating ecl: brn
+[SUCCESS]: Incrementing valid_passports to 45
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating hgt: 71cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 752379523
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating byr: 1938
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating ecl: brn
+[SUCCESS]: Incrementing valid_passports to 46
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 262917603
+[DEBUG] Validating hgt: 165cm
+[DEBUG] Validating hcl: #fffffd
+[DEBUG] Validating byr: 1965
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating iyr: 2012
+[SUCCESS]: Incrementing valid_passports to 47
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 260
+[DEBUG] Validating eyr: 2031
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating pid: 20220733
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1953
+[DEBUG] Validating eyr: 2031
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 167cm
+[DEBUG] Validating pid: 001642707
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating byr: 1952
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating hcl: #fffffd
+[SUCCESS]: Incrementing valid_passports to 48
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2029
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating hgt: 66
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating pid: 021102096
+[DEBUG] Validating byr: 1922
+[SUCCESS]: Incrementing valid_passports to 49
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 60in
+[DEBUG] Validating pid: 166477382
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating byr: 1982
+[SUCCESS]: Incrementing valid_passports to 50
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 065652921
+[DEBUG] Validating byr: 1939
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating iyr: 2018
+[SUCCESS]: Incrementing valid_passports to 51
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating hgt: 174cm
+[DEBUG] Validating hcl: #6b5442
+[DEBUG] Validating byr: 2008
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating pid: 320518492
+[DEBUG] Validating hcl: #341e13
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating hgt: 164cm
+[DEBUG] Validating cid: 84
+[DEBUG] Validating byr: 1940
+[SUCCESS]: Incrementing valid_passports to 52
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 1953
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2015
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating cid: 283
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hgt: 158cm
+[DEBUG] Validating byr: 1925
+[DEBUG] Validating pid: 694714722
+[DEBUG] Validating hcl: #7d3b0c
+[SUCCESS]: Incrementing valid_passports to 53
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating byr: 1971
+[DEBUG] Validating cid: 345
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating pid: 458416257
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating hgt: 183cm
+[DEBUG] Validating hcl: #6b5442
+[SUCCESS]: Incrementing valid_passports to 54
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: #dcae8b
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating pid: 935837461
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating hgt: 193cm
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating byr: 1984
+[SUCCESS]: Incrementing valid_passports to 55
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 1983
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2013
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 348
+[DEBUG] Validating byr: 1934
+[DEBUG] Validating hgt: 157cm
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating hcl: #623a2f
+[DEBUG] Validating pid: 607329117
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating ecl: utc
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating byr: 1968
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hgt: 167cm
+[DEBUG] Validating pid: 088516395
+[SUCCESS]: Incrementing valid_passports to 56
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 199
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating pid: 547112666
+[DEBUG] Validating hcl: #623a2f
+[DEBUG] Validating byr: 1928
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating hgt: 152cm
+[SUCCESS]: Incrementing valid_passports to 57
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 210
+[DEBUG] Validating byr: 1982
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating hgt: 187cm
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating pid: 578085789
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating eyr: 2029
+[SUCCESS]: Incrementing valid_passports to 58
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating hgt: 159cm
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating pid: 177650318
+[DEBUG] Validating byr: 1980
+[SUCCESS]: Incrementing valid_passports to 59
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating pid: 923359071
+[DEBUG] Validating ecl: #faa530
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 98
+[DEBUG] Validating iyr: 1996
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2004
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 680951513
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating hgt: 184cm
+[DEBUG] Validating hcl: #623a2f
+[DEBUG] Validating byr: 2001
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2028
+[SUCCESS]: Incrementing valid_passports to 60
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating hcl: #cfa07d
+[DEBUG] Validating pid: 599795227
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating hgt: 157cm
+[DEBUG] Validating byr: 1967
+[DEBUG] Validating eyr: 2029
+[SUCCESS]: Incrementing valid_passports to 61
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating pid: 117232314
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating byr: 1966
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating hgt: 186cm
+[SUCCESS]: Incrementing valid_passports to 62
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 605019880
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating hgt: 169cm
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating byr: 1980
+[DEBUG] Validating hcl: #623a2f
+[SUCCESS]: Incrementing valid_passports to 63
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating eyr: 2019
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating pid: 734870801
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating cid: 311
+[DEBUG] Validating hgt: 152cm
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating byr: 1998
+[SUCCESS]: Incrementing valid_passports to 64
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating byr: 2027
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2034
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating hcl: #574f4e
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating byr: 2000
+[DEBUG] Validating pid: #fec795
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 307880154
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating byr: 1926
+[DEBUG] Validating hgt: 182cm
+[DEBUG] Validating cid: 94
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating iyr: 2019
+[SUCCESS]: Incrementing valid_passports to 65
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 2019
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating byr: 1954
+[DEBUG] Validating pid: 135511825
+[DEBUG] Validating hgt: 68in
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating eyr: 2020
+[SUCCESS]: Incrementing valid_passports to 66
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #fffffd
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating byr: 1986
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating pid: 949021029
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating hgt: 188cm
+[SUCCESS]: Incrementing valid_passports to 67
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 181cm
+[DEBUG] Validating byr: 1977
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating pid: 420295283
+[DEBUG] Validating ecl: grn
+[SUCCESS]: Incrementing valid_passports to 68
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #f1fa72
+[DEBUG] Validating ecl: amb
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating pid: 299186098
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 152cm
+[DEBUG] Validating byr: 1941
+[DEBUG] Validating cid: 150
+[SUCCESS]: Incrementing valid_passports to 69
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating byr: 1938
+[DEBUG] Validating hgt: 188cm
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating hcl: #341e13
+[DEBUG] Validating pid: 868930517
+[SUCCESS]: Incrementing valid_passports to 70
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: #c5da2a
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: 289b20
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 990171473
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating cid: 68
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hcl: #fffffd
+[DEBUG] Validating hgt: 165cm
+[DEBUG] Validating byr: 1937
+[SUCCESS]: Incrementing valid_passports to 71
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 349316183
+[DEBUG] Validating byr: 1997
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating hgt: 185cm
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating iyr: 2016
+[SUCCESS]: Incrementing valid_passports to 72
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 144
+[DEBUG] Validating iyr: 2019
+[DEBUG] Validating hcl: z
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating byr: 1979
+[DEBUG] Validating hgt: 160cm
+[DEBUG] Validating iyr: 2015
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating pid: 399767457
+[DEBUG] Validating eyr: 2024
+[SUCCESS]: Incrementing valid_passports to 73
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 1987
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: 4f8779
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 157cm
+[DEBUG] Validating byr: 1928
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating pid: 243566446
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating iyr: 2015
+[SUCCESS]: Incrementing valid_passports to 74
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating byr: 1988
+[DEBUG] Validating hgt: 193cm
+[DEBUG] Validating cid: 125
+[DEBUG] Validating pid: 939550667
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating ecl: amb
+[SUCCESS]: Incrementing valid_passports to 75
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 157in
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1922
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating hcl: #c0946f
+[DEBUG] Validating hgt: 178cm
+[DEBUG] Validating pid: 590705772
+[DEBUG] Validating cid: 218
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating ecl: amb
+[SUCCESS]: Incrementing valid_passports to 76
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating cid: 252
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating hgt: 191cm
+[DEBUG] Validating iyr: 2025
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #ceb3a1
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating cid: 58
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating iyr: 2012
+[DEBUG] Validating byr: 1952
+[DEBUG] Validating hgt: 171cm
+[DEBUG] Validating pid: 294223216
+[SUCCESS]: Incrementing valid_passports to 77
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating hgt: 186cm
+[DEBUG] Validating byr: 1923
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating pid: 457433756
+[DEBUG] Validating eyr: 2022
+[DEBUG] Validating cid: 336
+[SUCCESS]: Incrementing valid_passports to 78
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating hgt: 63cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating cid: 267
+[DEBUG] Validating hcl: #ffeffd
+[DEBUG] Validating pid: 571696542
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating byr: 1989
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating hgt: 189cm
+[SUCCESS]: Incrementing valid_passports to 79
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2034
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2028
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 1930
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 780164868
+[DEBUG] Validating iyr: 2027
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating hgt: 174cm
+[DEBUG] Validating byr: 1970
+[DEBUG] Validating hcl: #341e13
+[DEBUG] Validating pid: 086579106
+[SUCCESS]: Incrementing valid_passports to 80
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating pid: 479696359
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating byr: 1998
+[DEBUG] Validating hcl: #6b5442
+[DEBUG] Validating cid: 207
+[DEBUG] Validating hgt: 174cm
+[DEBUG] Validating eyr: 2020
+[SUCCESS]: Incrementing valid_passports to 81
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #cfa07d
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating pid: 563337128
+[DEBUG] Validating hgt: 163cm
+[DEBUG] Validating byr: 1951
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating ecl: hzl
+[SUCCESS]: Incrementing valid_passports to 82
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1970
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating hgt: 172cm
+[DEBUG] Validating pid: 848996674
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating iyr: 2013
+[SUCCESS]: Incrementing valid_passports to 83
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1921
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating cid: 71
+[DEBUG] Validating pid: 125944934
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating hgt: 62in
+[DEBUG] Validating iyr: 2018
+[SUCCESS]: Incrementing valid_passports to 84
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #602927
+[DEBUG] Validating pid: 932690969
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating hgt: 172cm
+[DEBUG] Validating ecl: brn
+[DEBUG] Validating byr: 1957
+[DEBUG] Validating iyr: 2017
+[SUCCESS]: Incrementing valid_passports to 85
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1998
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating hgt: 74in
+[DEBUG] Validating cid: 146
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating pid: 709772213
+[DEBUG] Validating iyr: 2010
+[DEBUG] Validating ecl: oth
+[SUCCESS]: Incrementing valid_passports to 86
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating hgt: 68in
+[DEBUG] Validating pid: 813272708
+[DEBUG] Validating hcl: #6b5442
+[DEBUG] Validating cid: 325
+[DEBUG] Validating byr: 1965
+[DEBUG] Validating ecl: hzl
+[SUCCESS]: Incrementing valid_passports to 87
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating cid: 168
+[DEBUG] Validating iyr: 1950
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 161cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 153cm
+[DEBUG] Validating hcl: #866857
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating pid: 575037626
+[DEBUG] Validating iyr: 2030
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating pid: 129913905
+[DEBUG] Validating cid: 159
+[DEBUG] Validating hgt: 175cm
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating byr: 1946
+[DEBUG] Validating iyr: 2014
+[SUCCESS]: Incrementing valid_passports to 88
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating hgt: 172cm
+[DEBUG] Validating cid: 160
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating pid: 714902414
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating byr: 1981
+[DEBUG] Validating eyr: 2021
+[SUCCESS]: Incrementing valid_passports to 89
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating byr: 1921
+[DEBUG] Validating pid: 021318713
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating hgt: 168cm
+[SUCCESS]: Incrementing valid_passports to 90
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 181cm
+[DEBUG] Validating hcl: #efcc98
+[DEBUG] Validating byr: 1970
+[DEBUG] Validating eyr: 2024
+[DEBUG] Validating pid: 476171876
+[DEBUG] Validating ecl: hzl
+[DEBUG] Validating iyr: 2019
+[SUCCESS]: Incrementing valid_passports to 91
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 078204562
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating eyr: 2029
+[DEBUG] Validating hcl: #18171d
+[DEBUG] Validating byr: 1949
+[DEBUG] Validating hgt: 165cm
+[SUCCESS]: Incrementing valid_passports to 92
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating eyr: 2020
+[DEBUG] Validating iyr: 1963
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #a97842
+[DEBUG] Validating iyr: 1928
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 444305229
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating byr: 1936
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating hgt: 175cm
+[SUCCESS]: Incrementing valid_passports to 93
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 61cm
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1923
+[DEBUG] Validating pid: 321400085
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating iyr: 2016
+[DEBUG] Validating hgt: 189cm
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating ecl: hzl
+[SUCCESS]: Incrementing valid_passports to 94
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating ecl: #e612d9
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2021
+[DEBUG] Validating byr: 1934
+[DEBUG] Validating hgt: 180cm
+[DEBUG] Validating iyr: 2011
+[DEBUG] Validating cid: 225
+[DEBUG] Validating hcl: #7d3b0c
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating pid: 265966660
+[SUCCESS]: Incrementing valid_passports to 95
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1931
+[DEBUG] Validating hgt: 163cm
+[DEBUG] Validating hcl: #cfa07d
+[DEBUG] Validating pid: 550612542
+[DEBUG] Validating iyr: 2014
+[DEBUG] Validating eyr: 2026
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating cid: 99
+[SUCCESS]: Incrementing valid_passports to 96
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #5d9d64
+[DEBUG] Validating pid: 295386055
+[DEBUG] Validating byr: 1996
+[DEBUG] Validating hgt: 156cm
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating ecl: gry
+[SUCCESS]: Incrementing valid_passports to 97
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2030
+[DEBUG] Validating hgt: 192cm
+[DEBUG] Validating iyr: 2013
+[DEBUG] Validating byr: 1939
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating hcl: #b6652a
+[DEBUG] Validating pid: 86472746
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating pid: 612879095
+[DEBUG] Validating cid: 108
+[DEBUG] Validating byr: 1935
+[DEBUG] Validating hgt: 155cm
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating ecl: grn
+[SUCCESS]: Incrementing valid_passports to 98
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating ecl: gry
+[DEBUG] Validating pid: 025915371
+[DEBUG] Validating byr: 2010
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hgt: 171cm
+[DEBUG] Validating pid: 466737179
+[DEBUG] Validating eyr: 2025
+[DEBUG] Validating byr: 1937
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating ecl: oth
+[DEBUG] Validating cid: 244
+[DEBUG] Validating hcl: #cfa07d
+[SUCCESS]: Incrementing valid_passports to 99
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1993
+[DEBUG] Validating hgt: 179cm
+[DEBUG] Validating hcl: #341e13
+[DEBUG] Validating pid: 855375268
+[DEBUG] Validating iyr: 2018
+[DEBUG] Validating eyr: 2028
+[DEBUG] Validating ecl: brn
+[SUCCESS]: Incrementing valid_passports to 100
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating byr: 1988
+[DEBUG] Validating iyr: 2020
+[DEBUG] Validating hgt: 162cm
+[DEBUG] Validating ecl: grn
+[DEBUG] Validating eyr: 2027
+[DEBUG] Validating pid: 809135189
+[DEBUG] Validating hcl: #888785
+[SUCCESS]: Incrementing valid_passports to 101
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating hcl: #888785
+[DEBUG] Validating byr: 2003
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating pid: 756089060
+[DEBUG] Validating hgt: 165in
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating eyr: 2037
+[ERROR] Found a mistake
+----- [DEBUG]: Changing passport -------
+[DEBUG] Validating iyr: 2017
+[DEBUG] Validating eyr: 2023
+[DEBUG] Validating hgt: 151cm
+[DEBUG] Validating ecl: blu
+[DEBUG] Validating byr: 1942
+[DEBUG] Validating hcl: #733820
+[DEBUG] Validating pid: 289923625
+[SUCCESS]: Incrementing valid_passports to 102
+----- [DEBUG]: Changing passport -------
+[DEBUG]: We processed 259 passports
+Part 2: 102
