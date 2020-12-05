@@ -30,10 +30,11 @@ in root directory
 
 ## Solutions
 
-+ ⭐️ [Day 01](src/bin/day01.rs)
-+ ⭐️ [Day 02](src/bin/day02.rs)
-+ ⭐️ [Day 03](src/bin/day03.rs)
-+ ⭐️ [Day 04](src/bin/day04.rs)
+- ⭐️ [Day 01](src/bin/day01.rs)
+- ⭐️ [Day 02](src/bin/day02.rs)
+- ⭐️ [Day 03](src/bin/day03.rs)
+- ⭐️ [Day 04](src/bin/day04.rs)
+- ⭐️ [Day 05](src/bin/day05.rs)
 
 ## Blog posts
 
