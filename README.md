@@ -35,6 +35,7 @@ in root directory
 - ⭐️ [Day 03](src/bin/day03.rs)
 - ⭐️ [Day 04](src/bin/day04.rs)
 - ⭐️ [Day 05](src/bin/day05.rs)
+- ⭐️ [Day 06](src/bin/day06.rs)
 
 ## Blog posts
 
