@@ -45,7 +45,7 @@ fn second_part(groups: &Vec<Vec<&str>>) -> Option<usize> {
         let set1 = &sets[0];
         let intersection: Vec<&char> = set1
             .iter()
-            .filter(|k| sets.clone().into_iter().all(|s| s.contains(k)))
+            .filter(|k| (&sets).into_iter().all(|s| s.contains(k)))
             .collect();
 
         sum += intersection.len()
