@@ -55,3 +55,33 @@ fn second_part(groups: &Vec<Vec<&str>>) -> Option<usize> {
 
     Some(sum)
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn it_runs_first_part() {
+        let example_input = vec![
+            vec!["abc"],
+            vec!["a", "b", "c"],
+            vec!["ab", "ac"],
+            vec!["a", "a", "a", "a"],
+            vec!["b"],
+        ];
+
+        assert_eq!(first_part(&example_input).unwrap(), 11);
+    }
+
+    #[test]
+    fn it_runs_second_part() {
+        let example_input = vec![
+            vec!["abc"],
+            vec!["a", "b", "c"],
+            vec!["ab", "ac"],
+            vec!["a", "a", "a", "a"],
+            vec!["b"],
+        ];
+
+        assert_eq!(second_part(&example_input).unwrap(), 6);
+    }
+}
