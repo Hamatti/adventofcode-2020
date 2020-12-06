@@ -5,13 +5,11 @@ fn main() -> io::Result<()> {
     let mut buffer = String::new();
     io::stdin().read_to_string(&mut buffer)?;
 
-    let input: Vec<&str> = buffer.split("\n\n").collect();
-
-    let mut groups: Vec<Vec<&str>> = Vec::new();
-
-    for group in &input {
-        groups.push(group.split("\n").collect());
-    }
+    let groups: Vec<Vec<&str>> = buffer
+        .split("\n\n")
+        .into_iter()
+        .map(|groups| groups.split("\n").into_iter().collect())
+        .collect();
 
     println!("Part 1: {:?}", first_part(&groups).unwrap());
     println!("Part 2: {:?}", second_part(&groups).unwrap());
