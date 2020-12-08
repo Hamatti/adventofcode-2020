@@ -14,7 +14,6 @@ fn main() -> io::Result<()> {
 }
 
 fn first_part(input: &[&str]) -> Option<usize> {
-    let mut dag = Dag::new();
     let mut all_bags: HashMap<String, Bag> = HashMap::new();
     let wanted_color: String = "shiny gold".to_string();
     let mut valid_bags: HashSet<String> = HashSet::new();
