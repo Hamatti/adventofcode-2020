@@ -14,69 +14,39 @@ fn main() -> io::Result<()> {
 }
 
 fn first_part(input: &[&str]) -> Option<usize> {
-    let mut all_bags: HashMap<String, Bag> = HashMap::new();
-    let wanted_color: String = "shiny gold".to_string();
-    let mut valid_bags: HashSet<String> = HashSet::new();
-
+    let mut forward: HashMap<String, Vec<String>> = HashMap::new();
     for line in input {
-        let bag: Bag = parse_line(line).unwrap();
-        all_bags.insert((&*bag.color).to_string(), bag);
+        let bag: (String, Vec<String>) = parse_line(line);
+        let color: String = bag.0;
+        let other_bags: Vec<String> = bag.1;
+        &forward.insert(color, other_bags);
     }
 
-    for color in all_bags.keys() {
-        if directly_contains_color(&all_bags[color], &wanted_color) {
-            valid_bags.insert(color.to_string());
-        }
-    }
-
-    Some(valid_bags.len())
+    println!("{:?}", forward);
+    Some(1)
 }
 
-fn directly_contains_color(bag: &Bag, color: &str) -> bool {
-    match &bag.other_bags {
-        None => false,
-        Some(bags) => bags.into_iter().any(|bag| bag == color)
-    }
-}
-
-#[derive(Debug)]
-struct Bag {
-    color: String,
-    other_bags: Option<Vec<String>>
-}
-
-impl PartialEq for Bag {
-    fn eq(&self, other: &Self) -> bool {
-        self.color == other.color && self.other_bags.as_deref() == self.other_bags.as_deref()
-    }
-}
-
-fn parse_line(line: &str) -> Option<Bag> {
+fn parse_line(line: &str) -> (String, Vec<String>) {
     let re = Regex::new(r"^(\w+\s\w+) bags contain (?:(?:\d+ (\w+\s\w+) bags?(?:, |\.))+|no other bags)").unwrap();
-    let sub_re = Regex::new(r"(?:\d (\w+\s\w+) bags)").unwrap();
+    let sub_re = Regex::new(r"(?:\d (\w+\s\w+) bags?)+").unwrap();
     for cap in re.captures_iter(line) {
         let color: String = cap[1].to_string();
         let mut other_bags: Vec<String> = Vec::new();
         
         if line.contains("no other bags") {
-            return Some(Bag {
-                color,
-                other_bags: None
-            });
+            return (color, Vec::new());
         }
 
-        for sub_cap in sub_re.captures_iter(line.split(" bags contain ").collect::<Vec<&str>>()[1]) {
+        let splitter = line.split(" bags contain ").collect::<Vec<&str>>()[1];
+        for sub_cap in sub_re.captures_iter(splitter) {
             other_bags.push(sub_cap[1].to_string());
         }
         
-        return Some(Bag {
-            color,
-            other_bags: Some(other_bags)
-        });
+        return (color, other_bags);
         
     }
 
-    None
+    (String::new(), Vec::new())
  
 }
 
@@ -85,31 +55,51 @@ mod tests {
     use super::*;
 
     #[test]
+    fn it_runs_first_part() {
+        let example_input = vec![
+            "light red bags contain 1 bright white bag, 2 muted yellow bags.",
+            "dark orange bags contain 3 bright white bags, 4 muted yellow bags.",
+            "bright white bags contain 1 shiny gold bag.",
+            "muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.",
+            "shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.",
+            "dark olive bags contain 3 faded blue bags, 4 dotted black bags.",
+            "vibrant plum bags contain 5 faded blue bags, 6 dotted black bags.",
+            "faded blue bags contain no other bags.",
+            "dotted black bags contain no other bags.",
+        ];
+
+        assert_eq!(first_part(&example_input).unwrap(), 4);
+    }
+
+    #[test]
     fn it_parses_correctly() {
             assert_eq!(
-                parse_line("light green bags contain 2 pale cyan bags.").unwrap(),
-                Bag { 
-                    color: "light green".to_string(), 
-                    other_bags: Some(vec!["pale cyan".to_string()])
-                }
+                parse_line("light green bags contain 2 pale cyan bags.").0, "light green", 
+            );
+            assert_eq!(
+                parse_line("light green bags contain 2 pale cyan bags.").1, vec!["pale cyan"] 
+            );
+            
+            assert_eq!(
+                parse_line("shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.").0, "shiny gold", 
+            );
+            assert_eq!(
+                parse_line("shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.").1, vec!["dark olive", "vibrant plum"] 
             );
 
             assert_eq!(
-                parse_line("dim tan bags contain 3 shiny teal bags, 5 bright white bags, 4 striped bronze bags.").unwrap(),
-                Bag { 
-                    color: "dim tan".to_string(), 
-                    other_bags: Some(vec!["shiny teal".to_string(), "bright white".to_string(), "striped bronze".to_string()])
-                }
+                parse_line("dim tan bags contain 3 shiny teal bags, 5 bright white bags, 4 striped bronze bags.").0, "dim tan"
+            );
+            assert_eq!(
+                parse_line("dim tan bags contain 3 shiny teal bags, 5 bright white bags, 4 striped bronze bags.").1, vec!["shiny teal", "bright white", "striped bronze"]
             );
 
             assert_eq!(
-                parse_line("dull aqua bags contain no other bags.").unwrap(), 
-                Bag {
-                    color: "dull aqua".to_string(),
-                    other_bags: None
-                }
+                parse_line("dull aqua bags contain no other bags.").0, "dull aqua"
             );
 
-
+            assert_eq!(
+                parse_line("dull aqua bags contain no other bags.").1.len() , 0
+            );
     }
 }
