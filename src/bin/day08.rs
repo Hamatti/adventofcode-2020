@@ -122,6 +122,23 @@ mod tests {
     use super::*;
 
     #[test]
+    fn it_runs_first_part() {
+        let example_input = vec![
+            String::from("nop +0"),
+            String::from("acc +1"),
+            String::from("jmp +4"),
+            String::from("acc +3"),
+            String::from("jmp -3"),
+            String::from("acc -99"),
+            String::from("acc +1"),
+            String::from("jmp -4"),
+            String::from("acc +6"),
+        ];
+
+        assert_eq!(first_part(&example_input).unwrap(), 5);
+    }
+
+    #[test]
     fn it_runs_second_part() {
         let example_input = vec![
             String::from("nop +0"),
