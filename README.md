@@ -43,6 +43,7 @@ in root directory
 
 📓 [#1: Getting Started](https://hamatti.org/posts/advent-of-code-1-getting-started/)
 📓 [#2: Borrows, unwraps and lots of compiler errors](https://hamatti.org/posts/advent-of-code-2-borrows-unpacks-and-lots-of-compiler-errors/)
+📓 [#3: Slowing down](https://hamatti.org/posts/advent-of-code-3-slowing-down/)
 
 ## Acknowledgements
 
